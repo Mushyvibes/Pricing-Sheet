@@ -1,0 +1,43 @@
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.boxes{
+    background-color: gainsboro;
+    width: 400px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+button{
+    margin-left: 35%;
+    background-color: orange;
+    color: white;
+    border: 0px solid gainsboro;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 50px;
+}
+@media (max-width: 1250px){
+    .container{
+        flex-direction: column;
+        height: 100%;
+    }
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
